@@ -1,0 +1,91 @@
+body{
+  width: 100%;
+  margin: auto;
+}
+
+header{
+  background: #444444;
+  width: 1200px;
+}
+header img{
+  margin-left: 120px;;
+  margin-top: 1em;
+}
+
+nav{
+ height: 100px;
+}
+
+nav ul{
+display: inline-block;
+position: relative;
+bottom: 1.85em;
+}
+
+nav li{
+  text-align:center;
+  color: lightgray;
+  display:inline-block;
+  height:70px; 
+  width: 150px;
+  line-height: 70px;
+  margin: 20px;
+}
+
+.large{
+  width: 1000px;
+}
+.large img{
+  margin-left: 120px;
+  margin-top: 40px;
+}
+
+.three{
+  width: 1000px;
+  margin-left:120px;
+  margin-top:30px;
+}
+.three #one{
+  margin-right:25px;
+}
+.three #two{
+  margin-right: 25px;
+}
+
+.split{
+  width: 1000px;
+  margin-left:120px;
+  margin-top: 30px;
+  margin-bottom:15px;
+  display: inline-block;
+}
+.split strong{
+  font-weight: bold;
+  font-style: initial;
+}
+.split p{
+  font-style:italic;
+  width: 440px;
+  height: 360px;
+  display: inline-block;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  overflow-y:scroll;
+}
+.split button{
+  display:inline-block;
+  width: 200px;
+  height:40px;
+  background: #000;
+  color: lightgrey;
+  font-size: 18px;
+  float: right;
+  position:relative;
+  bottom:40px;
+  left:-300px;
+}
+footer{
+  background: #444444;
+  width: 1200px;
+  height: 200px;
+}
